@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./js/bootstrap.js" />
+    <link rel="stylesheet" href="./js/bootstrap.min.js" /> -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+
+    <title>Rover</title>
+  </head>
+
+  <body>
+    <!-- Hero Section Start -->
+    <div class="hero-section text-white">
+      <!-- Top Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-around"
+      >
+        <!-- (TLS) Top Left Side Navbar -->
+        <div class="left-navbar container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./image/brandLogo.svg"
+              alt="Logo"
+              width="100"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="home-link nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  Destinations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dashboard
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- TLS Navbar End -->
+
+        <!-- (TRS) Top Right Side Navbar -->
+        <div class="right-navbar collapse navbar-collapse pe-5">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Usd
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Country
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="become-btn right-nav-button btn btn-light"
+          >
+            Become An Expert
+          </button>
+          <button
+            type="button"
+            class="sign-btn right-nav-button btn btn-outline-dark"
+          >
+            Sign in / Register
+          </button>
+        </div>
+        <!-- TRS Navbar End -->
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Section Bottom Links -->
+      <div class="hero-bottom text-white">
+        <div class="px-4 py-5 my-5 text-center">
+          <h1 class="display-5 fw-bold">Find Next Place To Visit</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Discover Amzaing Places Exclusive Deals</p>
+          </div>
+        </div>
+
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills justify-content-center d-flex">
+            <li class="nav-item"><a href="#" class="nav-link">Hotel</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Tour</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Activity</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Holiday Rentals</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Car</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Cruise</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Flights</a></li>
+          </ul>
+        </header>
+      </div>
+      <div class="search-box">
+        <form
+          action=""
+          class="d-flex justify-content-evenly align-items-center text-dark"
+        >
+          <div class="form-inputs">
+            <div class="border-end">
+              <label for="destination"> Destination </label>
+              <input
+                type="text"
+                class="form-control form-date-input"
+                id="destination"
+                placeholder="America,USA"
+              />
+            </div>
+
+            <div class="border-end">
+              <label for="date"> Date </label>
+              <input
+                type="date"
+                class="form-control form-text-input"
+                id="date"
+                placeholder="Select Date"
+              />
+            </div>
+
+            <div>
+              <label for="price"> Price </label>
+              <input
+                type="number"
+                class="form-control"
+                id="price"
+                placeholder="$1,000 - $2,000"
+              />
+            </div>
+          </div>
+
+          <div class="form-btn">
+            <div>
+              <button type="button" class="btn btn-primary">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Hero Section Bottom End -->
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Section Two Start -->
+    <div
+      class="section-two row g-4 py-5 row-cols-1 row-cols-lg-3 d-flex mt-5 justify-content-evenly align-items-center text-center"
+    >
+      <div class="feature col d-grid gap-4">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+        >
+          <img src="./image/first-emoji.jpg" alt="" />
+        </div>
+        <h3 class="fs-5 text-body-emphasis">Customer Delight</h3>
+        <p>We deliver the best service and experience for our customer.</p>
+      </div>
+
+      <div class="feature col d-grid gap-4">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+        >
+          <img src="./image/second-emoji.jpg" alt="" />
+        </div>
+        <h3 class="fs-5 text-body-emphasis">Authentic Adventure</h3>
+        <p>We deliver the real adventure experience for our dear customer.</p>
+      </div>
+
+      <div class="feature col d-grid gap-4">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+        >
+          <img src="./image/third-emoji.jpg" alt="" />
+        </div>
+        <h3 class="fs-5 text-body-emphasis">Expert Guides</h3>
+        <p>We deliver only expert tour guides for our dear customer.</p>
+      </div>
+
+      <div class="feature col d-grid gap-4">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+        >
+          <img src="./image/fourth-emoji.jpg" alt="" />
+        </div>
+        <h3 class="fs-5 text-body-emphasis">Time Flexibility</h3>
+        <p>We welcome time flexibility of traveling for our dear customer.</p>
+      </div>
+    </div>
+    <!-- Section Two End -->
+
+    <!-- Section Three Start -->
+    <div class="section-three">
+      <!-- Destination Heading Start -->
+      <div class="heading mb-5">
+        <h3 class="heading-style">DESTINATION</h3>
+      </div>
+      <!-- Destination Heading End -->
+
+      <!-- Destination Links Start -->
+      <div class="destination-links">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills justify-content-center d-flex">
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2 active" aria-current="page"
+                >All</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2">Best Seller</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2">Nature</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link m-2">City</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2">Seasonal</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+      <!-- Destination Links End -->
+
+      <!-- Destination Cards Start -->
+      <div
+        class="desination-cards d-flex justify-content-evenly row row-cols-1 row-cols-sm-2 row-cols-md-3"
+      >
+        <div class="first-card card pe-auto" role="button" style="width: 170px">
+          <img
+            src="./image/thailand.jpg"
+            class="card-img-top"
+            alt="Thailand Image"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Thailand</h5>
+            <p class="card-text">20 Pakages</p>
+          </div>
+        </div>
+
+        <div class="first-card card" role="button" style="width: 170px">
+          <img
+            src="./image/greese.jpg"
+            class="card-img-top"
+            alt="Greese Image"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Greese</h5>
+            <p class="card-text">20 Pakages</p>
+          </div>
+        </div>
+
+        <div class="first-card card" role="button" style="width: 170px">
+          <img src="./image/japan.jpg" class="card-img-top" alt="Japan Image" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Japan</h5>
+            <p class="card-text">20 Pakages</p>
+          </div>
+        </div>
+
+        <div class="first-card card" role="button" style="width: 170px">
+          <img
+            src="./image/switzerland.jpg"
+            class="card-img-top"
+            alt="Switzerland Image"
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Switzerland</h5>
+            <p class="card-text">20 Pakages</p>
+          </div>
+        </div>
+      </div>
+      <!-- Destination Cards End -->
+
+      <!-- More Load Destinations btn-->
+      <div class="MoreLoad-btn d-flex justify-content-center m-5">
+        <button type="button" class="btn btn-outline-primary px-5">
+          Load More Destinations
+        </button>
+      </div>
+      <!-- More Load Destinations btn End -->
+    </div>
+    <!-- Section Three End -->
+
+    <!-- Section Five Start -->
+    <div class="section-five">
+      <div class="col-md-auto">
+        <div
+          class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-relative">
+            <h3 class="mb-0 mb-5">Only The Best Quality For You</h3>
+            <p class="card-text mb-auto">
+              From Planning to Post-Trip Follow-Up, we have all the best
+              services special for you. Take a look at our numbers for our
+              credibility.
+            </p>
+          </div>
+          <div class="col mx-3">
+            <img
+              src="./image/img.jpg"
+              alt=""
+              class="bd-placeholder-img"
+              width="300"
+              height="350"
+              role="img"
+            />
+          </div>
+          <div class="five-counter-right col">
+            <div class="border-bottom">
+              <h2>20 +</h2>
+              <p>Years of Experience</p>
+            </div>
+            <div class="border-bottom">
+              <h2>100 +</h2>
+              <p>Destinations Countries</p>
+            </div>
+            <div class="border-bottom">
+              <h2>10 +</h2>
+              <p>Tour &amp; Travel Awards</p>
+            </div>
+            <div class="border-bottom">
+              <h2>22,37,216</h2>
+              <p>Delighted Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section Five End -->
+
+    <!-- /////////////////////////////////////////////////////////////////// -->
+    <!-- Section Six Start -->
+    <div class="section-six"></div>
+    <!-- Section Six End -->
+    <!-- /////////////////////////////////////////////////////////////////// -->
+
+    <!-- Section Seven Start-->
+    <div class="section-seven d-flex flex-column align-items-center mt-5">
+      <div class="section-head">
+        <h1 class="heading-style">GALLERY</h1>
+      </div>
+
+      <div class="section-VII-img container row justify-content-center">
+        <div class="col-2" style="width: 20%">
+          <img
+            src="./image/gallery-img-1.jpg"
+            class="py-2"
+            alt=""
+            style="width: -webkit-fill-available"
+          />
+          <img
+            src="./image/gallery-img-3.jpg"
+            class="py-2"
+            alt=""
+            style="width: -webkit-fill-available"
+          />
+        </div>
+
+        <div class="col-4 row">
+          <img src="./image/gallery-img-3.jpg" alt="" />
+        </div>
+
+        <div class="col-6" style="width: 20%">
+          <img
+            src="./image/gallery-img-3.jpg"
+            class="py-2"
+            alt=""
+            style="width: -webkit-fill-available"
+          />
+          <img
+            src="./image/gallery-img-2.jpg"
+            class="py-2"
+            alt=""
+            style="width: -webkit-fill-available"
+          />
+        </div>
+      </div>
+
+      <div class="gallery-button">
+        <button type="button" class="btn btn-outline-primary px-5 my-5">
+          FOLLOW US ON @VACASKY.CO
+        </button>
+      </div>
+    </div>
+    <!-- Section Seven End -->
+
+    <!-- Section Eight Start -->
+    <div class="section-eight">
+      <div
+        class="inner-div text-white d-flex justify-content-center align-items-center p-0 rounded-3 w-sm-auto"
+      >
+        <div>
+          <h2>BOOK YOUR DREAM VACATION</h2>
+          <h1>TODAY</h1>
+          <p>
+            Let us help you create unforgettable memories with our special tours
+            and destinations.
+          </p>
+          <button type="button" class="btn btn-dark ml-4">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- Section Eight End -->
+
+    <!-- Section-nine Start -->
+    <div class="section-nine">
+      <!-- Section Heading Start -->
+      <div class="heading">
+        <h3 class="heading-style mt-4">BLOG</h3>
+      </div>
+      <!-- Section Heading End -->
+
+      <!-- Section Images Start-->
+      <div class="section-img d-flex justify-content-center">
+        <!-- Section Image Div 1 Start -->
+        <div class="img-div-1">
+          <img class="sec-nine-img-1" src="./image/blog-img-1.jpg" alt="" />
+          <div class="sec-nine-img1-content">
+            <p>travel</p>
+            <h3>
+              10 Must-see <br />
+              Attraction in <br />
+              Greese
+            </h3>
+            <div>
+              <div class="img-div-1-bottom d-flex justify-content-around">
+                <div class="img-div-1-profile d-flex">
+                  <img src="./image/sec-nine-profile-img.jpg" alt="" />
+
+                  <div class="d-flex flex-column">
+                    <span class="">Angus Smith</span>
+                    <span class="">August 15&#44;2025</span>
+                  </div>
+                </div>
+                <img
+                  class="arrow"
+                  src="./image/sec-nine-rightArrow.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Section Image div 1 End -->
+
+        <!-- Section Image div 2 Start -->
+        <div class="img-div-2 d-flex flex-column justify-content-between ms-3">
+          <div>
+            <img src="./image/blog-img-2.jpg" alt="" class="" />
+            <div class="section-nine-card-designe-div">
+              <p>travel</p>
+              <h3 class="section-nine-card-designe-h3">
+                Our Beginner's <br />
+                Guide to Hiking in <br />
+                The Swiss Alps
+              </h3>
+            </div>
+          </div>
+
+          <div>
+            <img src="./image/blog-img-3.jpg" alt="" class="" />
+            <div class="section-nine-card-designe-div">
+              <p>travel</p>
+              <h3 class="section-nine-card-designe-h3">
+                Solo Travels: The Best <br />
+                Thing You Can Do For <br />
+                Yourself
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Section Image div 2 End -->
+      </div>
+      <!-- Section Images End -->
+    </div>
+    <!-- Section-nine End -->
+
+    <!-- Section-Ten Start -->
+    <div
+      class="section-ten mt-5 d-flex justify-content-center align-items-center"
+    >
+      <section class="d-flex justify-content-center">
+        <article class="my-3" id="accordion">
+          <div>
+            <div class="bd-example">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-3">
+                  <h4 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What type of travel packages does Vacasky offer?
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Vacasky offers a wide range of travel packages to
+                      destinations around the world, including customized tours,
+                      group tours, luxury travel, adventure travel, and more.
+                      Our travel specialists work with you to create an
+                      itinerary that meets your specific needs and preferences
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item my-3">
+                  <h4 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      How do I book a trip with Vacasky?
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item my-3">
+                  <h4 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What is the payment process for Vacasky?
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item my-3">
+                  <h4 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      How to cancel my booking in Vacasky?
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Pariatur dolore alias sequi, atque rerum placeat adipisci
+                      nobis veritatis eveniet expedita culpa quas eum odit et
+                      molestiae at inventore velit obcaecati!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="section-ten-heading mt-5">
+          <h1>Frequently Asked Questions</h1>
+          <p>What our clients usually asked about our services and tours</p>
+        </div>
+      </section>
+    </div>
+    <!-- Section-Ten End -->
+
+    <!-- Footer Section Start -->
+    <div class="footer-section mt-5">
+      <div
+        class="sponsor-icons d-flex flex-wrap justify-content-evenly align-items-center"
+      >
+        <img src="./image/sponsor-icon-1.jpg" class="m-2" alt="" />
+        <img src="./image/sponsor-icon-2.jpg" class="m-2" alt="" />
+        <img src="./image/sponsor-icon-3.jpg" class="m-2" alt="" />
+        <img src="./image/sponsor-icon-4.jpg" class="m-2" alt="" />
+        <img src="./image/sponsor-icon-5.jpg" class="m-2" alt="" />
+      </div>
+
+      <div class="heading">
+        <h3 class="heading-style">NEWSLETTER</h3>
+      </div>
+
+      <div class="signup-sec d-flex flex-column align-items-center">
+        <p class="text-center">
+          Sign up for our newsletter and receive exclusive travel deals, insider
+          tips, and destination inspiration. Don't miss out on the adventure -
+          join our mailing list today!
+        </p>
+
+        <form action="" class="d-flex align-items-center">
+          <input type="text" placeholder="Enter your email address here ..." />
+          <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+        </form>
+      </div>
+
+      <footer
+        class="d-flex flex-wrap justify-content-evenly align-items-center py-3 mb-4 border-top"
+      >
+        <a class="navbar-brand bg-dark" href="#">
+          <img
+            src="./image/brandLogo.svg"
+            alt="Logo"
+            width="100"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-center">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Tours</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><img src="./image/facebook-logo.svg" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><img src="./image/twitter-logo.svg" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><img src="./image/insta-logo.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Footer Section End -->
+
+    <!-- JavaScript (Bootstrap 5) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+@media screen and (width < 1290px) {
+  .hero-section nav .right-navbar .become-btn {
+    display: none;
+  }
+
+  .hero-section nav .left-navbar .home-link {
+    display: none;
+  }
+}
+
+@media screen and (width < 425px) {
+  .section-nine .section-img {
+    height: 200px;
+  }
+
+  .footer-section .signup-sec form {
+    width: 100%;
+  }
+
+  .footer-section form input {
+    width: 100%;
+  }
+}
+
+@media screen and (width < 768px) {
+  .search-box form {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    height: fit-content;
+    padding: 10px 0 10px 0;
+  }
+
+  .section-ten section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section-ten .section-ten-heading {
+    width: 50%;
+    transform: translate(10%);
+  }
+
+  .section-ten article {
+    width: 100%;
+  }
+
+  .section-ten .section {
+    flex-direction: column-reverse;
+  }
+
+  .footer-section .signup-sec p {
+    width: 90%;
+  }
+}
+
+@media screen and (width < 390px) {
+  .hero-section .search-box{
+    margin-top: -50px;
+    box-shadow: -40px 4px 2px -2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (width < 351px) {
+  .hero-section .search-box{
+    margin-top: -90px;
+  }
+
+  .hero-section .bottom-links{
+    margin-top: -50px;
+  }
+}

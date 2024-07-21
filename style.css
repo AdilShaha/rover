@@ -1,0 +1,255 @@
+/* Hero Section Start */
+.hero-section {
+  background: linear-gradient(
+      0deg,
+      rgb(65 83 105 / 50%) 0%,
+      rgb(0 118 245) 100%
+    ),
+    url("./image/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+header ul .nav-link {
+  color: white;
+}
+
+.right-nav-button {
+  width: 10rem;
+  margin-left: 1rem;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 5%;
+}
+
+.search-box form {
+  width: 80%;
+  height: 5rem;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 14.8px 0px rgba(0, 0, 0, 0.45);
+}
+
+.search-box .form-inputs {
+  display: flex;
+}
+
+.search-box form .form-inputs div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box form .form-btn div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box form .form-inputs input {
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.search-box form .form-btn button {
+  width: 100%;
+}
+/* Hero Section End */
+
+/* Section Two Style Start*/
+.section-two {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-two > div {
+  width: 21rem;
+  height: 225.5px;
+}
+
+.section-two > div > div > img {
+  width: 45px;
+  height: 49px;
+}
+
+/* Section Two Style End*/
+
+/* Section Three Style Start */
+.section-three div header ul .nav-link {
+  background: #b4b4b4;
+}
+
+.section-three div .card {
+  border: 0;
+}
+
+.section-three .desination-cards {
+  margin: 0;
+}
+/* Section Three Style End */
+
+/* Section Five Start */
+.section-five {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+}
+
+.section-five div div div h3 {
+  font-size: 3rem;
+}
+/* Section Five End */
+
+/* Section Seven Start */
+.section-VII-img {
+  width: 100vw;
+}
+/* Section Seven End */
+
+/* Section Eight Start */
+.section-eight {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.section-eight .inner-div {
+  background: url("./image/section-eight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50rem;
+  height: 25rem;
+}
+
+.section-eight div div h2 {
+  letter-spacing: 0.2em;
+  margin-left: 10px;
+}
+
+.section-eight div div h1 {
+  font-size: 100px;
+  margin-left: 2px;
+}
+
+.section-eight div div p {
+  margin-left: 10px;
+}
+
+.section-eight div div button {
+  margin-left: 10px;
+}
+/* Section Eight End */
+
+/* Section Nine Start */
+.section-nine {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.section-nine .section-img {
+  height: 300px;
+}
+
+.section-nine .section-img .sec-nine-img-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.section-nine .section-img .img-div-2{
+  width: 200px;
+}
+
+.section-nine .section-img .img-div-2 div {
+  height: 48%;
+}
+
+.section-nine .section-img .img-div-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-nine-card-designe-div {
+  position: relative;
+  top: -75%;
+  left: 5%;
+  color: white;
+}
+
+.section-nine-card-designe-h3 {
+  font-size: 0.8rem;
+}
+
+.section-nine .section-img .sec-nine-img1-content {
+  position: relative;
+  top: -100%;
+  left: 5%;
+  color: white;
+}
+
+.section-nine .section-img .sec-nine-img1-content h3 {
+  font-size: 40px;
+}
+
+/* Section Nine end */
+
+/* Section Ten Start */
+.section-ten {
+  background: url("./image/section-ten-img.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-ten article {
+  width: 40%;
+}
+
+.section-ten .section-ten-heading {
+  width: 25%;
+  height: 50%;
+  transform: translate(20%, 50%);
+}
+/* Section Ten End */
+
+.footer-section footer {
+  margin-top: 5rem;
+}
+
+.footer-section form {
+  background: #f6f6f6;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  width: 60%;
+}
+
+.footer-section .signup-sec p {
+  width: 50%;
+}
+
+.footer-section .signup-sec input {
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* Random Stylings */
+.heading-style {
+  color: #b4b4b4;
+  text-align: center;
+  font-size: 15vw;
+}
+
+/* ////////// </> ////////// */
